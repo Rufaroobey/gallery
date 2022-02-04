@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="nav">
+      <div class="name" style="color: white;">Picture Hub</div>
+      <div class="menus">
+      <div><a href="index.html">Home</a></div> 
+        <div><a href="collection.html">Collections</a></div>
+        <div><a href="">About</a></div>
+        <div><a href="">Contact</a></div>
+      </div>
+    </div>
+
+    <div class="view">
+      <div class="text">
+        
+        <div style="font-size: 60px;" >About<br> Us</div>
+        <div>The quick brown fox jumped over the lazy dogs. <br> the quick brown fox jumped over the lazy dogs</div>
+
+        <button class="popup" onclick="myFunction()"> Open
+          <span class="popuptext" id="mypopup">
+            <p>The quick brwon fox jumped over the lazy dogs. <br> The quick brwon fox jumed over the lazy dogs. 
+              The quick brwon fox jumped over the lazy dogs </p>
+          </span>
+        </button>
+      </div>
+
+      <div class="image"> <img src="images/pexels-joey-kyber-134643.jpg" alt=""> </div>
+      
+    </div>
+
+    <script>
+      function myFunction() {
+        var popup = document.getElementById("mypopup");
+        popup.classList.toggle("show")
+      }
+    </script>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+body{
+  background-color: rgb(216, 217, 218);
+}
+
+.container{
+  position: absolute;
+  left: 80px;
+  height: 15cm;
+  width: 30cm;
+  background-color: rgb(47, 44, 44);
+  box-shadow: 0 20px 20px 0 grey;
+
+}
+
+.nav{
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  padding:2px ;
+}
+
+.name{
+  margin: 10px;
+  font-weight: bold;
+}
+
+.menus div{
+  display: inline-block;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 15px;
+}
+
+.menus a{
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+.menus a:hover{
+  color: black;
+  transition: color 1s;
+}
+
+.view{
+  margin: 20px;
+  padding: -5px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 20px;
+}
+
+.image1 img{
+  width: 5.9cm;
+  height: 10cm;
+  background-color: beige;
+}
+
+.image2 img{
+  width: 5.9cm;
+  height: 10cm;
+  background-color: beige;
+}
+
+.image3 img{
+  width: 5.9cm;
+  height: 10cm;
+  background-color: beige;
+}
+
+.text{
+  position: relative;
+  top: 70px;
+  color: white;
+  
+}
+
+.view a{
+  text-decoration: none;
+  color: orange;
+}
+
+button{
+  width: 90px;
+  height: 30px;
+  color: white;
+  background:rgb(10, 10, 10);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+ position: relative;
+ left: 26.5cm;
+ top: 20px;
+}
+button :hover{
+  color: grey;
+  transition:color 0.5s;
+}
